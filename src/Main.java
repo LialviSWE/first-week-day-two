@@ -228,7 +228,54 @@ public class Main {
         */
 
         //Övning 4.2
+        // Skapa ett program som:
+        // 1. Frågar efter priset på en vara
+       /* double varan;
 
+        System.out.print("Vad kostar varan? ");
+        double orgVaran =input.nextDouble();
+        input.nextLine();//rensa
+
+        // 2. Frågar om kunden är student (ja/nej)
+        System.out.print("Är du student? j/n ");
+        String student = input.nextLine();
+
+        // 3. Frågar om kunden är medlem (ja/nej)
+        System.out.print("Är du medlem? j/n ");
+        String medlem = input.nextLine();
+
+        System.out.println("Då är originalpriset "+orgVaran+" kr"); //skriver ut originalpris redan här
+
+        // 4. Beräknar slutpris:
+        //    - Studenter får 10% rabatt
+        //    - Medlemmar får 5% rabatt
+        //    - Både student OCH medlem: 15% rabatt
+        if (student.equals("j")) {
+            double sRabatt = orgVaran*0.1;
+            varan = orgVaran - sRabatt;
+            System.out.println("Rabatten blir "+sRabatt+" kr");
+        } else if (medlem.equals("j")) {
+            double mRabatt = orgVaran*0.05;
+            varan = orgVaran - mRabatt;
+            System.out.println("Rabatten blir "+mRabatt+" kr");
+        } else if (medlem.equals("j") && student.equals("j")) {
+            double Rabatt = orgVaran*0.15;
+            varan = orgVaran - Rabatt;
+            System.out.println("Rabatten blir "+Rabatt+" kr");
+        } else {
+            varan = orgVaran;
+        }
+
+        // 5. Skriver ut originalpris, rabatt och slutpris
+        System.out.println("Vilket gör att slutpriset blir "+varan+" kr.");
+        */
+
+        //Övning 5.1
+        // Skapa ett program som:
+        // 1. Räknar från 1 till 10
+        // 2. Räknar från 10 till 1
+        // 3. Räknar alla jämna tal från 2 till 20
+        // 4. Summerar alla tal från 1 till 100
 
 
 
