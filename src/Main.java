@@ -114,7 +114,7 @@ public class Main {
         //Övning 3.1
         // Skapa ett program som:
         // 1. Frågar efter användarens ålder
-        System.out.println("Ålder: ");
+        /*System.out.println("Ålder: ");
         int age = input.nextInt();
 
         // 2. Talar om om de får köra bil (18+)
@@ -143,8 +143,73 @@ public class Main {
             System.out.println("Då är du ju pensionär!");
         } else {
             System.out.println("Då är du inte pensionär än..");
-        }
+        }*/
 
+        //Övning 3.2
+        // Skapa ett program som:
+        // 1. Frågar efter poäng på ett prov (0-100)
+       /* System.out.print("Fyll i hur många poäng du fick på provet: ");
+        int resultat = input.nextInt();
+        input.nextLine();
+
+        // 2. Ger betyg enligt:
+        //    - A: 90-100
+        //    - B: 80-89
+        //    - C: 70-79
+        //    - D: 60-69
+        //    - F: under 60
+        // 3. Skriver ut betyget och en uppmuntrande kommentar
+
+        if (resultat <60){
+            System.out.println("Betyg: F");
+            System.out.println("Det går nog bättre nästa gång!");
+        } if (resultat < 70 && resultat >60) {
+            System.out.println("Betyg D");
+            System.out.println("Du klarade det, men det var nära ögat ;) ");
+        } if (resultat < 80 && resultat >70) {
+            System.out.println("Betyg C");
+            System.out.println("Snyggt jobbat, men kanske plugga lite mer nästa gång? ");
+        } if (resultat < 90 && resultat >70) {
+            System.out.println("Betyg B");
+            System.out.println("Wow, riktigt snyggt betyg ju!");
+        } if (resultat < 80 && resultat >100) {
+            System.out.println("Betyg A");
+            System.out.println("Woo! Snyggt jobbat, högsta betyg! ");
+        }*/
+
+        //Övning 3.3
+        // Skapa ett program som:
+        // 1. Frågar efter temperaturen
+        /*System.out.print("Vad är temperaturen idag? ");
+        double temp = input.nextDouble();
+        input.nextLine();
+
+        // 2. Ger klädråd:
+        //    - Under 0: "Ta på dig vinterjacka!"
+        //    - 0-10: "Kläd dig varmt!"
+        //    - 10-20: "Perfekt väder för en hoodie!"
+        //    - Över 20: "Shorts-väder!"
+
+        if (temp <0){
+            System.out.println("Ta på dig vinterjacka!");
+        } if (temp < 10 && temp>0){
+            System.out.println("Klä dig varmt!");
+        } if (temp < 20 && temp>10){
+            System.out.println("Perfekt väder för en hoodie!");
+        } if (temp > 20){
+            System.out.println("Shorts-väder!");
+        }*/
+
+        //Övning 4.1
+        // Skapa ett enkelt inloggningssystem:
+        // 1. Fråga efter användarnamn
+        // 2. Fråga efter lösenord
+
+
+        // 3. Om användarnamn är "admin" och lösenord är "password123":
+        //    - Skriv "Välkommen admin!"
+        // 4. Annars:
+        //    - Skriv "Fel användarnamn eller lösenord"
 
 
     }
