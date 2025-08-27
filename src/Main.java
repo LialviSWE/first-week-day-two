@@ -1,3 +1,4 @@
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -148,7 +149,7 @@ public class Main {
         //Övning 3.2
         // Skapa ett program som:
         // 1. Frågar efter poäng på ett prov (0-100)
-       /* System.out.print("Fyll i hur många poäng du fick på provet: ");
+        /*System.out.print("Fyll i hur många poäng du fick på provet: ");
         int resultat = input.nextInt();
         input.nextLine();
 
@@ -163,19 +164,22 @@ public class Main {
         if (resultat <60){
             System.out.println("Betyg: F");
             System.out.println("Det går nog bättre nästa gång!");
-        } if (resultat < 70 && resultat >60) {
+        } else if (resultat < 70 && resultat >60) {
             System.out.println("Betyg D");
             System.out.println("Du klarade det, men det var nära ögat ;) ");
-        } if (resultat < 80 && resultat >70) {
+        } else if (resultat < 80 && resultat >70) {
             System.out.println("Betyg C");
             System.out.println("Snyggt jobbat, men kanske plugga lite mer nästa gång? ");
-        } if (resultat < 90 && resultat >70) {
+        } else if (resultat < 90 && resultat >70) {
             System.out.println("Betyg B");
             System.out.println("Wow, riktigt snyggt betyg ju!");
-        } if (resultat < 80 && resultat >100) {
+        } else if (resultat < 80 && resultat >100) {
             System.out.println("Betyg A");
             System.out.println("Woo! Snyggt jobbat, högsta betyg! ");
-        }*/
+        } else {
+            System.out.println("Nä men nu blev det fel!");
+        }
+*/
 
         //Övning 3.3
         // Skapa ett program som:
@@ -192,24 +196,40 @@ public class Main {
 
         if (temp <0){
             System.out.println("Ta på dig vinterjacka!");
-        } if (temp < 10 && temp>0){
+        } else if (temp < 10 && temp>0){
             System.out.println("Klä dig varmt!");
-        } if (temp < 20 && temp>10){
+        } else if (temp < 20 && temp>10){
             System.out.println("Perfekt väder för en hoodie!");
-        } if (temp > 20){
+        } else if (temp > 20){
             System.out.println("Shorts-väder!");
-        }*/
+        } */
 
+
+        /*
         //Övning 4.1
         // Skapa ett enkelt inloggningssystem:
         // 1. Fråga efter användarnamn
         // 2. Fråga efter lösenord
-
+        System.out.print("Användarnamn: ");
+        String anvNamn = input.nextLine();
+        System.out.print("Lösenord: ");
+        String password = input.nextLine();
 
         // 3. Om användarnamn är "admin" och lösenord är "password123":
         //    - Skriv "Välkommen admin!"
         // 4. Annars:
         //    - Skriv "Fel användarnamn eller lösenord"
+
+        if (anvNamn.equals("admin") && password.equals("password123")) {
+            System.out.println("Välkommen admin!");
+        } else {
+            System.out.println("Fel användarnamn eller lösenord");
+        }
+        */
+
+        //Övning 4.2
+
+
 
 
     }
